@@ -19,8 +19,8 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
 
     if(bmi < 18.6){
-        
         results.innerHTML = `your Bmi is  ${bmi} you are Under Weight !`
+        
     }
     else if (bmi > 18.6 &&  24.9 > bmi ){
         results.innerHTML = `your Bmi is ${bmi} you are in Normal range !`
